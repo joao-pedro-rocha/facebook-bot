@@ -50,9 +50,7 @@ for i, group in enumerate(groups):
     driver.get(group)
     try:
         post_elem = driver.find_element_by_css_selector('#u_0_0')
-        sub_elem = driver.find_element_by_css_selector(
-            '#root > div.bg > div.bh.bu > form > table > tbody > tr > td.m > di \
-            v > input')
+        sub_elem = driver.find_element_by_name('Post')
 
         post_elem.send_keys(post)
         sub_elem.click()
