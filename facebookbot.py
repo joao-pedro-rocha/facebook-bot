@@ -5,10 +5,12 @@ import time
 import re
 
 class FacebookBot:
-    def __init__(driver):
+    drive = None
+
+    def __init__(self, driver):
         self.driver = driver
 
-    def login(username, password):
+    def login(self, username, password):
         self.driver.get("https://mbasic.facebook.com")
 
         # Login to facebook
@@ -17,12 +19,12 @@ class FacebookBot:
         pwd_elem = self.driver.find_element_by_css_selector(
             '#login_form > ul > li:nth-child(2) > div > input')
 
-        usr_elem.send_keys(usr)
-        pwd_elem.send_keys(pwd)
+        usr_elem.send_keys(username)
+        pwd_elem.send_keys(password)
         pwd_elem.send_keys(Keys.RETURN)
         time.sleep(2)  # We'll wait 2 seconds for the page to load completely
 
-    def collectGroups():
+    def collect_groups(self):
         print("Collecting groups in profile...")
         self.driver.get('https://mbasic.facebook.com/groups/?seemore&refid=27')
 
@@ -37,7 +39,7 @@ class FacebookBot:
 
         return groups
 
-    def postToGroups(post, interval, groups):
+    def post_to_groups(self, post, interval, groups):
         # Go to each group and post
         for i, group in enumerate(groups):
             self.driver.get(group)

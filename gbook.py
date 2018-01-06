@@ -8,10 +8,10 @@ pwd = input('Password: ')
 print("Iniatiating PhantomJS")
 driver = webdriver.PhantomJS()
 
-myBot = new FacebookBot(driver)
+myBot = FacebookBot(driver)
 myBot.login(usr, pwd)
 
-groups = myBot.collectGroups()
+groups = myBot.collect_groups()
 
 post = """ Sample Post """ # change this to what you will post to each group
-myBot.postToGroups(post, 500, groups)
+myBot.post_to_groups(post, 500, groups)
