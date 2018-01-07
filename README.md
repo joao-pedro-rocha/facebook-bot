@@ -20,6 +20,10 @@ If you don't have [PhantomJS](http://phantomjs.org/download.html) download it an
 ## Contributing
 When contributing to this repository, please first discuss the change you wish to make via submitting an issue in this repository [https://github.com.piratedv/gbook-py](https://github.com.piratedv/gbook-py) or sending an email to [thepiratedev@gmail.com](mailto:thepiratedev@gmail.com).
 
+* Fork a copy of this repository
+* Send an issue with a label enhancement you'd like to add 
+* Or head over to [https://github.com/piratedv/gbook-py/labels/enhancement](https://github.com/piratedv/gbook-py/labels/enhancement) and see what's available
+
 ## License 
 This project is licensed under the MIT License
 
