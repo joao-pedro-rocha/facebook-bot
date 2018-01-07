@@ -17,6 +17,9 @@ If you don't have [PhantomJS](http://phantomjs.org/download.html) download it an
 * [BeautifulSoup 4.6.0](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 
+## Contributing
+When contributing to this repository, please first discuss the change you wish to make via submitting an issue in this repository [https://github.com.piratedv/gbook-py](https://github.com.piratedv/gbook-py) or sending an email to [thepiratedev@gmail.com](mailto:thepiratedev@gmail.com).
+
 ## License 
 This project is licensed under the MIT License
 
