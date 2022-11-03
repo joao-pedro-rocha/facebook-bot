@@ -5,7 +5,7 @@ Automate facebook group post with Python
 This is a script to automate posting in groups on your facebook account. It's handy if you're posting to several groups everyday manually.
 
 ### Run in your favorite command line.
-* ```git clone https://github.com/piratedv/gbook-py.git```
+* ```git clone https://github.com/joaorochapy/facebook-bot.git```
 * ``` pip install -r requirements.txt```
 * ``` python gbook.py ```
 
