@@ -14,3 +14,4 @@ This is a script to automate posting in groups on your facebook account. It's ha
 * [Python 3.6.3 ](https://www.python.org/downloads/)
 * [Selenium-Python 3.7.0](http://selenium-python.readthedocs.io)
 * [BeautifulSoup 4.6.0](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [Webdriver Manager 3.8.4](https://pypi.org/project/webdriver-manager/)
